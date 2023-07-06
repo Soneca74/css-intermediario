@@ -1,0 +1,13 @@
+/*--------- Efeito cascata --------- */
+.container-cascata{
+    background-color: aqua;
+}
+/* O css le o nosso codígo de cima para baixo e aplica a estilizações como uma cascata temos um exemplo aqui. O seletor container-cascata tem duas estilizações mas a debaixo sobrepõe a de cima */ 
+.container-cascata{
+    background-color: orange;
+}
+/* Seguindo a explicação acima quando nivel de especificidade for maior  a estilização com esse nivél prevalecera independente da ordem cascata. A seguir exemplos de especificidade com boas praticas */
+.container-especificidade p{
+    background-color: brown;
+} 
+/* Aqui temos um exemplo bom de especificidade se colocarmos o mouse em cima e compararmos vemos que ele tem especificade maior que os outros 0,1,1 de especificidade respeitando as boas praticas e especificando um seletor e a tag que sofrera estilização. Para calcular a especificidade existe um site https://specificity.keegan.st/  */
