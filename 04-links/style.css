@@ -1,0 +1,20 @@
+a{
+    cursor:progress;
+    margin: 20px;padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+}
+a:visited{
+    color: orange;
+}
+a:active{
+    color: red;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+a:hover{
+ background-color: red;
+ color: white;
+ border-radius: 5%;
+}
