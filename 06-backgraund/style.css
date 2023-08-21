@@ -1,0 +1,36 @@
+p{
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+.bg{
+    background-color: lightgreen;
+    background-image: url('./images/cat.png');
+    
+  /*  background-repeat: no-repeat; */ /*uma forma de fazer com que a imagem de fundo não se repita */
+}
+.bg-image{
+    /* com o tamanho exato da imagem ela não se repete */
+    width: 513px;
+    height: 340px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat; /* repeat-y para repetir na vertical. repeat-x para repetir na horizontal*/
+    height: 540px;
+
+}
+.bg-size-cover{
+    background-size: cover; /* cover faz com que a imagem cubra toda a div ( a altura e a largura da imagem tem que sempre ser a mesma da imagem porque se não perde a qualiadade da imagem e a imagem fica estourada) */
+    height: 540px;
+}
+.bg-fixed{
+    background-attachment: fixed; /* deixa fixo a imagem de backgraund */
+    height: 540px;
+}
+.bg-position{
+    background-position: left bottom ; /* declara o valor da posição vertical e horizontal */
+    background-repeat: no-repeat;
+    height: 540px;
+}
+/* para usar a tag 'backgraund:' temos que seguir a ordem especifica das coisas que nos queremos colocar no Backgraund a ordem é cor, url com o endereço da imagem, no-repeat pra não repetir, right top para dar a posição*/
